@@ -1,0 +1,28 @@
+{
+  "name": "once-done",
+  "version": "1.0.0",
+  "description": "Call a callback when a Promise is settled.",
+  "main": "index.js",
+  "dependencies": {
+    "pinkie-promise": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreyBelym/cancelable-race.git"
+  },
+  "keywords": [
+    "promise"
+  ],
+  "author": "Andrey Belym (belym.a.2105@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndreyBelym/once-done/issues"
+  },
+  "homepage": "https://github.com/AndreyBelym/once-done#readme"
+}
