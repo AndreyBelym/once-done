@@ -2,12 +2,18 @@
   "name": "once-done",
   "version": "1.0.0",
   "description": "Call a callback when a Promise is settled.",
-  "main": "index.js",
+  "main": "lib/index",
   "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.4.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.4.5",
     "mocha": "^2.3.4",
     "pinkie-promise": "^2.0.0"
   },
   "scripts": {
+    "build": "babel src -d lib",
+    "pretest": "npm run build",
     "test": "mocha"
   },
   "repository": {
@@ -22,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/AndreyBelym/once-done/issues"
   },
-  "homepage": "https://github.com/AndreyBelym/once-done#readme"
+  "homepage": "https://github.com/AndreyBelym/once-done#readme",
+  "files": [
+    "lib"
+  ]
 }

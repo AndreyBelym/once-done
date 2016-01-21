@@ -1,7 +1,11 @@
 # once-done
 [![Build Status](https://travis-ci.org/AndreyBelym/once-done.svg?branch=master)](https://travis-ci.org/AndreyBelym/once-done)
+
 *Call a function when a Promise is settled.*
-ES5 Implementation of [Promise.prototype.finally](https://gist.github.com/rbuckton/66918c8491aa335b003c) as non-method function.
+
+Implementation of [Promise.prototype.finally](https://gist.github.com/rbuckton/66918c8491aa335b003c) as non-method function.
+
+Written in ES6, transpiled by [Babel](http://babeljs.io/).
 
 ## Install
 ```
