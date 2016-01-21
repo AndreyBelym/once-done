@@ -1,6 +1,6 @@
 {
   "name": "once-done",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Call a callback when a Promise is settled.",
   "main": "lib/index",
   "devDependencies": {
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AndreyBelym/cancelable-race.git"
+    "url": "git+https://github.com/AndreyBelym/once-done.git"
   },
   "keywords": [
     "promise"
